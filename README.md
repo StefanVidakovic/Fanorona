@@ -1,2 +1,5 @@
 # Fanorona
-Chess-like board game, Player vs computer only. Computer uses alpha-beta.
+Chess/Checkers like game originating from Madagascar
+Pygame Graphics
+Object-Oriented AI engine, modelled after common chess engines
+AI uses minimax tree search with alpa-beta pruning
