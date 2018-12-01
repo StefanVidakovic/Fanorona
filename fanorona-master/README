@@ -1,0 +1,23 @@
+contact: Thierry Randrianiriana <randrianiriana@gmail.com>
+licence: GPL-2+
+homepage: http://home.gna.org/fanorona/
+source: https://github.com/mavenix/fanorona
+
+stones artwork (button-*-benji_park_01.png) from http://www.openclipart.org
+licence: public domain
+
+lib/fanorona/menu.py
+http://code.google.com/p/python-pygame-menu-class/
+Copyright 2009 Scott Barlow
+licence: GPL-3
+
+dependencies
+============
+
+ - python >= 2.4
+ - python-numpy
+ - python-pygame
+
+optional:
+ - devscripts
+ - gettext (generate the compiled files .mo from .po)

@@ -1,0 +1,26 @@
+Cmput 275 Final Project: Fanorona
+
+Contributing Students: Stefan Vidakovic 1458690; Tyler Santos 1509651
+
+To run the game simply type python3 Fanorona.py. To move a piece simply select it, the colour will switch to green,
+and then click on the space you intend to move it to. If you have to option to do consecutive captures the piece will stay selected and
+you will have to option to move again with that piece or you may end your turn. Captures are made by either approaching or withdrawing
+from an opponents piece, and if there a multiple pieces along the line of capture, those will also be captured until there is an empty 
+space. It is also important to note that if a capture move can be made, it is not valid to perform a non-capture move.
+
+There is an instructional video for more clarification on game rules and how to play. The video will mention a known error we have
+encountered where should the user accidentally select on open or opponent space a white pearl will show up on the board. It is 
+important to note that although it appears to be there this pearl actually doesn't exist in the game engine and once the user makes 
+his/her move the image will have disappeared. This is a visual bug that we were unfortunately unable to fix due to time constraints. 
+
+
+The User Interface was implemented using certain pygame modules however the game board and pieces (pearls) were made using GIMP.
+The AI was designed similarily to a chess engine as that was the most prevalent documentation available. A minimax search with
+alpha-beta pruning was implemented.
+
+The three files that pertain to the implementation of the game are Fanorona.py, MoveGeneration.py and BoardContent.py, where the first
+contains the main game loop and all user interfacing, the second contains all of move generation, evaluation, and alpha-beta as well as
+some move checking for user moves. BoardContent.py naturally contains the board representation we chose to use.
+
+Enjoy the Game.  
+
